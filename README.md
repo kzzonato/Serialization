@@ -1,5 +1,8 @@
 <h1 align="center"> Serialização </h1>
 
+![GitHub language count](https://img.shields.io/github/languages/count/kzzonato/Java-ECHO?style=plastic)
+![GitHub top language](https://img.shields.io/github/languages/top/kzzonato/Java-ECHO?style=plastic) 
+
 A serialização é um processo em Java que permite converter o estado de um objeto em uma sequência de bytes. Essa sequência de bytes pode ser armazenada em um arquivo, transmitida pela rede ou usada para criar um clone do objeto.
 
 Para que um objeto possa ser serializado, ele deve implementar a interface Serializable. Essa interface não possui nenhum método a ser implementado, mas apenas indica que o objeto é serializável.
