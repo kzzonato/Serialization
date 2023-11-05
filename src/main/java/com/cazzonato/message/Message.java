@@ -6,8 +6,8 @@ import java.util.UUID;
 // Serialization
 
 public class Message implements Serializable {
-    public String nome;
-    public String msg;
+    private String nome;
+    private String msg;
     private  String token;
     public Message(String userName, String message){
         this.nome = userName;
