@@ -19,3 +19,26 @@ O processo de desserialização é realizado pelo método readObject() da classe
 - Salvar o estado de um jogo em um arquivo
 - Transmitir informações de um servidor para um cliente
 - Criar um backup de um objeto
+
+  ## <div align="center"> Classes principais </div>
+
+<table>
+  <tr>
+    <td>Classe</td>
+    <td>Descrição</td>
+  </tr>
+  <tr>
+    <td>Serializable</td>
+    <td>Esta interface é a marca de serialização. Uma classe que implementa esta interface pode ser serializada</td>
+  </tr>
+    <tr>
+    <td>ObjectOutputStream</td>
+    <td>Esta classe é usada para serializar objetos</td>
+  </tr>
+  </tr>
+    <tr>
+    <td>ObjectInputStream</td>
+    <td>Esta classe é usada para desserializar objetos</td>
+  </tr>
+</table>
+
